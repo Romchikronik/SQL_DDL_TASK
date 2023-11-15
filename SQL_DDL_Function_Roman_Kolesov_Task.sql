@@ -1,4 +1,4 @@
--- VIEW
+-- VIEW  , Well, actually we don't have payment with current quarter, but if we add that, everything will be displayed in the table.
 CREATE OR REPLACE VIEW sales_revenue_by_category_qtr AS
 SELECT
     c.name AS category_name,
